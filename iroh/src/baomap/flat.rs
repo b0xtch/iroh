@@ -130,7 +130,7 @@ use std::sync::{Arc, RwLock};
 
 use bao_tree::io::outboard::{PostOrderMemOutboard, PreOrderOutboard};
 use bao_tree::io::sync::ReadAt;
-use bao_tree::{blake3, ChunkNum};
+use bao_tree::{ChunkNum};
 use bao_tree::{BaoTree, ByteNum};
 use bytes::Bytes;
 use futures::future::BoxFuture;

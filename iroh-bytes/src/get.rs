@@ -58,7 +58,6 @@ pub mod fsm {
     use super::*;
 
     use bao_tree::{
-        blake3,
         io::fsm::{
             OutboardMut, ResponseDecoderReading, ResponseDecoderReadingNext, ResponseDecoderStart,
         },

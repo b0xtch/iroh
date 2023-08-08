@@ -9,7 +9,6 @@ use std::{
 };
 
 use bao_tree::{
-    blake3,
     io::{
         outboard::{PreOrderMemOutboard, PreOrderOutboard},
         sync::Outboard,

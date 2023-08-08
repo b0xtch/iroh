@@ -27,7 +27,7 @@ use rand::RngCore;
 use tokio::sync::mpsc;
 use tracing_subscriber::{prelude::*, EnvFilter};
 
-use bao_tree::blake3;
+
 use iroh_bytes::{
     baomap::Store,
     collection::{CollectionParser, CollectionStats, LinkStream},

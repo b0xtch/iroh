@@ -8,7 +8,7 @@ use crate::{
     },
     Hash,
 };
-use bao_tree::{blake3, ChunkNum};
+use bao_tree::{ChunkNum};
 use bytes::Bytes;
 use futures::future::BoxFuture;
 use iroh_io::AsyncSliceReader;
