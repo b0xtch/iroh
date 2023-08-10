@@ -5,6 +5,7 @@ pub use iroh_bytes as bytes;
 pub use iroh_net as net;
 
 pub mod baomap;
+pub mod config;
 #[cfg(feature = "iroh-collection")]
 pub mod collection;
 pub mod dial;
