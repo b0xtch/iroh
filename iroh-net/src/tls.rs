@@ -68,7 +68,8 @@ impl Keypair {
         }
     }
 
-    fn sign(&self, msg: &[u8]) -> Signature {
+    /// Sign a message with this keypair.
+    pub fn sign(&self, msg: &[u8]) -> Signature {
         use ed25519_dalek::Signer;
 
         self.secret.sign(msg)
