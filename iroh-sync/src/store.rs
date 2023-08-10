@@ -154,6 +154,7 @@ pub enum KeyFilter {
 }
 
 /// Iterator over the entries in a namespace
+#[derive(Debug)]
 pub enum GetIter<'s, S: Store> {
     All(S::GetAllIter<'s>),
     Latest(S::GetLatestIter<'s>),
